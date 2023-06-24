@@ -1,0 +1,81 @@
+    1  git init
+    2  git clone https://github.com/leleversatile/shopping-cart.git
+    3  cd shopping-cart
+    4  ls
+    5  git init
+    6  git status
+    7  git add .
+    8  git commit
+    9  git add .
+   10  git commit
+   11  git add .
+   12  git commit-m "changes"
+   13  git push
+   14  git status
+   15  git commit -m "changes"
+   16  git push
+   17  git add .
+   18  git commit -me "changes2"
+   19  git status
+   20  git add .
+   21  git commit -m "main"
+   22  git push
+   23  git status
+   24  git add .
+   25  git commit -me "another change"
+   26  git add .
+   27  git commit -me "main"
+   28  git add .
+   29  git commit -me "another commit"
+   30  git push
+   31  git status
+   32  git add .
+   33  git commit -m "main"
+   34  git push
+   35  git status
+   36  git status
+   37  git config --global user.name "leleversatile"
+   38  git config --global init.defaultBranch main
+   39  git remote show origin
+   40  git add README
+   41  mkdir git-basic-exercises
+   42  cd git-basic-exercises
+   43  ls -a
+   44  git init
+   45  ls -a
+   46  git status
+   47  touch README.md
+   48  ls -a
+   49  git status
+   50  git log
+   51  git add README.md
+   52  git commit -m "initial commit"
+   53  git log
+   54  q
+   55  nano README.md
+   56  cat README.md
+   57  git status
+   58  git commit -m "second commit"
+   59  git add README.md
+   60  git commit -m "second commit"
+   61  nano README.md
+   62  git add README.md
+   63  git commit -m "third commit"
+   64  git log
+   65  git checkout a99f2b66b718e92b1361daa42879a35ba78c2320
+   66  cat README.md
+   67  git checkout main
+   68  cat README.md
+   69  git branch
+   70  git branch milkshake-flavours
+   71  git branch
+   72  nano milkshakes.md
+   73  git status
+   74  git add milkshakes.md
+   75  git commit -m "added initial flavours"
+   76  git log
+   77  git branch history
+   78  git checkout history
+   79  git log
+   80  git branch
+   81  history > history.txt
