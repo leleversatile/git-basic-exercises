@@ -79,3 +79,70 @@
    79  git log
    80  git branch
    81  history > history.txt
+   82  git add history.txt
+   83  git commit -m "added history"
+   84  git log
+   85  nano README.md
+   86  git add README.md
+   87  git commit -m "random readme changes"
+   88  git checkout history
+   89  cat README.md
+   90  rm README.md
+   91  echo "booya" > README.md
+   92  git add README.md
+   93  git commit -m "rewrote readme"
+   94  git checkout main
+   95  ls
+   96  git log
+   97  git checkout milkshake-flavours
+   98  ls
+   99  git log
+  100  git checkout main
+  101  git merge milkshake-flavours
+  102  git checkout main
+  103  git merge history
+  104  git checkout history
+  105  git merge main
+  106  git remote add origin https://github.com/leleversatile/git-basic-exercises.git
+  107  git branch -M main
+  108  git push -u origin main
+  109  ssh-keygen -t ed25519 -C "leleversatile@gmail.com"
+  110  ssh-keygen -t ed25519 -C "leleversatile@gmail.com"
+  111  git remote set-url origin git@github.com:leleversatile/git-basic-exercises.git
+  112  git push -u origin main
+  113  git push -u origin milkshake-flavours
+  114  git push -u origin history
+  115  git push -u origin history
+  116  cd ../
+  117  
+  118  gh repo umuzi-org/a-repo-to-clone
+  119  git clone gh repo umuzi-org/a-repo-to-clone
+  120  git remote -v
+  121  git checkout a-branch-with-a-few-commits
+  122  mkdir this-will-be-another-repo
+  123  cd this-will-be-another-repo
+  124  git init
+  125  touch README.md
+  126  git add README.md
+  127  git commit -m "blank file"
+  128  cd git-basic-exercises
+  129  cd ~/Documents/git-basic-exercises
+  130  git log
+  131  touch ignore-me.db
+  132  git status
+  133  nano .gitignore
+  134  mkdir large-directory-that-should-be-local-only
+  135  cd large-directory-that-should-be-local-only
+  136  echo "This is some random text. " > README.md
+  137  cd ..
+  138  git status
+  139  nano .gitignore
+  140  git add .gitignore
+  141  git commit -m "added .gitignore"
+  142  git push -u origin main
+  143  git branch
+  144  cd ~/Documents/git-basic-exercises
+  145  git branch
+  146  git branch history
+  147  git checkout history
+  148  history > history.txt
